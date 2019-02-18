@@ -1,0 +1,177 @@
+label {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    flex-flow: wrap column;
+    width: 190px;
+    font-size: 14px;
+}
+body {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    max-width: 1400px;
+    margin: auto;
+}
+#box1,#box2 {
+    width: 35%;
+    height: 100vh;
+    float: left;
+}
+#box3 {
+    width: 20%;
+    height: 100vh;
+    float: left;
+}
+#selectBox, .selectBox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: #eeeeee 0 5px 10px;
+    max-height: 85%;
+    overflow: auto;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+.uploadImg {
+    position: relative;
+    width: 125px;
+    height: 30px;
+    filter: drop-shadow(0px 0px 2px rgba(0,110,179,1));
+    margin: 5px;
+}
+.uploadImg:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.uploadBackground {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,110,179,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #eeeeee;
+    font-size: 15px;
+}
+.baseBtn {
+    width: 125px;
+    height: 30px;
+    filter: drop-shadow(0px 0px 2px rgba(0,110,179,1));
+    background: rgba(0,110,179,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    color: #eeeeee;
+    font-size: 15px;
+    margin: 5px;
+}
+.baseBtn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+#imgBox {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #eeeeee 0 5px 10px;
+    overflow: auto;
+    position: relative;
+}
+#btnBox {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#platform {
+    width: 100%;
+    height: 85%;
+    box-shadow: #eeeeee 0 5px 15px;
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    margin-left: 25px;
+    position: relative;
+}
+h1::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: #b7b4b4;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 2px;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    margin-left: 25px;
+    width: 100%;
+    position: relative;
+}
+h2::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #b7b4b4;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: -19px;
+    margin-top: 2px;
+}
+#cut {
+    position: absolute;
+}
+.cutBox {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.cutBox > div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#temporary {
+    box-shadow: #eeeeee 0 5px 10px;
+    width: 100%;
+    max-height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+#temporary > div {
+    width: 100%;
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+.chooseBox {
+    width: 40%;
+    display: flex;
+    flex-flow: nowrap row;
+}
+.on {
+    background-color: #eeeeee;
+    color: #006eb3;
+}
